@@ -1,6 +1,6 @@
 # Mongo-Collection FAKE
     
-a no-op test double for ![mongo-collection](http://npm.im/mongo-collection)
+a no-op test double for npm.im/mongo-collection
 
 ## API
 
