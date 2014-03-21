@@ -1,6 +1,6 @@
 {
   "name": "mongo-collection-fake",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "a no-op test double for npm.im/mongo-collection",
   "main": "index.js",
   "dependencies": {
