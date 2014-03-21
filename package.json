@@ -1,0 +1,30 @@
+{
+  "name": "mongo-collection-fake",
+  "version": "0.0.0",
+  "description": "a no-op test double for npm.im/mongo-collection",
+  "main": "index.js",
+  "dependencies": {
+    "event-stream": "git+ssh://git@github.com:Interlincx/event-stream.git#f5c34"
+  },
+  "devDependencies": {
+    "tape": "^2.10.2"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Interlincx/mongo-collection-fake"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoskin",
+    "stream"
+  ],
+  "author": "Tom Hummel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Interlincx/mongo-collection-fake/issues"
+  },
+  "homepage": "https://github.com/Interlincx/mongo-collection-fake"
+}
