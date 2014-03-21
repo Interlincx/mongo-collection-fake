@@ -7,7 +7,7 @@
     "event-stream": "git+ssh://git@github.com:Interlincx/event-stream.git#f5c34"
   },
   "devDependencies": {
-    "tape": "^2.10.2"
+    "tape": "2.x.x"
   },
   "scripts": {
     "test": "node test.js"
