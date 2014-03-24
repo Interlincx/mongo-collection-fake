@@ -4,10 +4,21 @@ var lib = require('./index'),
 
 test('#find()', function(t){
   var mcf = lib('host', 'db', 'col');
+  t.plan(5);
+
   mcf.find({}, function(err, res){
-    t.notOk(err, 'falsy err');
-    t.deepEqual(res, [], 'returns empty array');
-    t.end();
+    t.notOk(err, 'falsy find err');
+
+    res.toArray(function(err, arr){
+      t.notOk(err, 'falsy toArray err');
+      t.deepEqual(arr, [], 'toArray returns empty array');
+    });
+    
+    res.nextObject(function(err, obj){
+      t.notOk(err, 'falsy nextObject err');
+      t.deepEqual(obj, null, 'nextObject returns null');
+    });
+
   });
 });
 

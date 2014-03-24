@@ -5,11 +5,22 @@ function getCb(passedArgs){
   return args[args.length-1];
 }
 
+function getCursor(){
+  return {
+    toArray: function(cb){
+      cb(null, []);
+    },
+    nextObject: function(cb){
+      cb(null, null);
+    }
+  }
+}
+
 module.exports = function(host, dbname, collection) {
   return {
     find: function(){
       var cb = getCb(arguments);
-      cb(null, []);
+      cb(null, getCursor());
     },
     findOne: function(){
       var cb = getCb(arguments);
