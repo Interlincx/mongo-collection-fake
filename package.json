@@ -4,7 +4,7 @@
   "description": "a no-op test double for npm.im/mongo-collection",
   "main": "index.js",
   "dependencies": {
-    "event-stream": "git+ssh://git@github.com:Interlincx/event-stream.git#f5c34"
+    "event-stream": "^3.1.0"
   },
   "devDependencies": {
     "tape": "2.x.x"
