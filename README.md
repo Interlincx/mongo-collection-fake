@@ -1,6 +1,6 @@
 # Mongo-Collection FAKE
     
-a no-op test double for npm.im/mongo-collection
+a no-op test double for npm.im/mongo-collection, a helper for accessing kissjs/node-mongoskin models
 
 [![Build Status](https://travis-ci.org/Interlincx/mongo-collection-fake.png)](https://travis-ci.org/Interlincx/mongo-collection-fake)  
 [![NPM](https://nodei.co/npm/mongo-collection-fake.png?downloads=true)](https://nodei.co/npm/mongo-collection-fake/)
